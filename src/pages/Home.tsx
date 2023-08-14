@@ -8,7 +8,7 @@ export default function Home() {
     if (file) {
       return <h1>Test</h1>
     } else {
-      return <Card file={file} setFile={setFile} />
+      return <Card setFile={setFile} />
     }
   };
 
