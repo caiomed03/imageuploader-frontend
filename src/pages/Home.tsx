@@ -5,7 +5,7 @@ import { useUploadForm } from "../hooks";
 export default function Home() {
   const [file, setFile] = useState(null);
   const { isSuccess, uploadForm, progress, response } = useUploadForm(
-    "http://localhost:8000/api/upload"
+    "https://imageuploader-backend-production.up.railway.app/api/upload"
   );
 
   const isThereFile = () => {
