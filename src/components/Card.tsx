@@ -73,7 +73,7 @@ export default function Card({
             <div className="m-2">
               <div className="flex flex-row bg-[#F6F8FB] rounded-[8px] border-[#E0E0E0] border-[1px] pl-[10px] items-center justify-evenly">
                 <p
-                  className="font-['Poppins'] text-[#4F4F4F] text-[8px] leading-[12px] tracking-[-3.5%]"
+                  className="font-['Poppins'] text-[#4F4F4F] text-[8px] leading-[12px] tracking-[-3.5%] truncate"
                   ref={linkText}
                 >
                   {responseData.url}
